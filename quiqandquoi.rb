@@ -11,12 +11,12 @@ a = quiquandquoi("Anatta",
                  maisette("l'ecole", "vert"),
                  sinon("route", "rouge", "vert"))
 
-b = gabbler.learn(a)
-
-c = b
+b = gabbler.learn("#{a}")
 
 2.times do
-  get_statistics(:trivia_une,   c[0],
-                 :trivia_deux,  c[2],
-                 :trivia_trois, c[2])
+  get_statistics(:trivia_une,   b[0],
+                 :trivia_deux,  b[1],
+                 :trivia_trois, b[2])
+                 
+                 dynamic_reward_allocation
 end
