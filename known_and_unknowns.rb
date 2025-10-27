@@ -1,3 +1,5 @@
+require "QuiQuandQuoi/Cedreref.rb"
+
 ## This handles known relationships
 a = cadreref(cette("pomme", "rouge"),         "Relationship: Fruit", 0.33,
              maisette("pomme", "vert"),       "Relationship: Fruit", 0.33,
