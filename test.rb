@@ -2,7 +2,7 @@ require "NeoPathfinding"
 
 a = cette("pomme", "rouge")
 b = maisette("pomme", "vert")
-c = sinon("pomme", "rouge", "vert)
+c = sinon("pomme", "rouge", "vert")
 
 gabbler = Gabbler.new
 
