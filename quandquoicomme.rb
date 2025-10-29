@@ -1,3 +1,37 @@
+# Depends on when events happen. 
+# Commitee of specialists. 
+# Coincides with traumatic events. 
+# That leader dresses formally. 
+# But others wear military uniforms. 
+# Otherwise both dress casually. 
+
+# I'm confident it is not [ what Commitee of specialists ] as it has only 0.054450000000000005 probability.
+# I'm confident it is not [ what Commitee of specialists ].
+# I'm confident it is not [ what Commitee of specialists ].
+# I'm less unconfident it is not [ what Commitee of specialists ].
+# I'm sure it is [ what Commitee of specialists ].
+# I'm confident it is not [ when Depends on when events happen ] as it has only 0.054450000000000005 probability.
+# I'm confident it is not [ when Depends on when events happen ].
+# I'm confident it is not [ when Depends on when events happen ].
+# I'm less unconfident it is not [ when Depends on when events happen ].
+# I'm sure it is [ when Depends on when events happen ].
+
+# WHEN
+# Le relation de reference entre Around 7:00 P,M, and Otherwise depends on when events happen est non un match pour un probabilite de 0.165.
+# Le relation de reference entre Otherwise depends on when events happen, and Lecturers in podcasts est non un match pour un probabilite de 0.165.
+# Le relation de reference entre Around 7:00 P,M, and Lecturers in podcasts est non un match pour un probabilite de 0.165.
+
+# WHAT
+# Le relation de reference entre Anomalous dolls of different types, and Varies from dreamer to next est non un match pour un probabilite de 0.165.
+# Le relation de reference entre Varies from dreamer to next, and Commitee of specialists est non un match pour un probabilite de 0.165.
+# Le relation de reference entre Anomalous dolls of different types, and Commitee of specialists est non un match pour un probabilite de 0.165.
+
+# HOW
+# Le relation de reference entre Blend in from scene to scene, and Coincides with traumatic event est non un match pour un probabilite de 0.165.
+# Le relation de reference entre Coincides with traumatic event, and Podcasts recorded every day est un match pour un probabilite de 0.027225000000000003.
+# Le relation de reference entre Blend in from scene to scene, and Podcasts recorded every day est non un match pour un probabilite de 0.165.
+
+
 require "NeoPathfinding"
 
 #quandquoicomme("Around 6:00 A.M.",         "Around 6:00 A.M.",          "Around 6:00 A.M.",          "Around 6:00 A.M.",          "Around 6:00 A.M.",
