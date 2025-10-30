@@ -34,6 +34,14 @@ cadreref(cette("pomme", "rouge"),         "Relationship: Fruit",     0.33,
          sinon("pomme", "rouge", "vert"), "Relationship: Not Fruit", 0.33)
 ~~~
 
+This is how you connect what if statements inside a frame of reference.
+
+~~~ruby
+cadreref(quoisi("pomme", "rouge"),  "Relation: Pomme", 0.33,
+         quoisi("pomme",  "vert"),  "Relation: Pomme", 0.33,
+         quoisi("banane", "jaune", "Relation: Banane", 0.33)
+~~~
+
 ## Who When What
 This query asks who an entity is, when they did a thing, and what they did.
 
