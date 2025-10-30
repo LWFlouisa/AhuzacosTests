@@ -17,31 +17,6 @@ quiquoi("Andy",      "Albert",    "Bethany",
         sinon("pomme", "rouge", "vert"), sinon("pomme", "rouge", "vert"), sinon("pomme", "rouge", "vert"))
 ~~~
 
-## Frame Of Reference
-Establishing a frame of reference by matching unrelated phrases within a topic by their implicit relationship:
-
-~~~ruby
-cadreref("Jan eats apples.",        "Relationship: Food",     0.33,
-         "Albert eats carrots",     "Relationship: Food",     0.33,
-         "Andy goes to the movies", "Relationship: Movies",   0.33)
-~~~
-
-This combines Cette-Maisette-Sinon with Cadreref, in order to match conditional statements with their relationships.
-
-~~~ruby
-cadreref(cette("pomme", "rouge"),         "Relationship: Fruit",     0.33,
-         maisette("pomme", "vert"),       "Relationship: Fruit",     0.33,
-         sinon("pomme", "rouge", "vert"), "Relationship: Not Fruit", 0.33)
-~~~
-
-This is how you connect what if statements inside a frame of reference.
-
-~~~ruby
-cadreref(quoisi("pomme",  "rouge"), "Relation: Pomme", 0.33,
-         quoisi("pomme",   "vert"), "Relation: Pomme", 0.33,
-         quoisi("banane", "jaune"), "Relation: Banane", 0.33)
-~~~
-
 ## Who When What
 This query asks who an entity is, when they did a thing, and what they did.
 
@@ -76,4 +51,30 @@ A simple what if statement for asking the machine a what if question.
 
 ~~~ruby
 quoisi("lapine", "mort")
+~~~
+
+
+## Frame Of Reference
+Establishing a frame of reference by matching unrelated phrases within a topic by their implicit relationship:
+
+~~~ruby
+cadreref("Jan eats apples.",        "Relationship: Food",     0.33,
+         "Albert eats carrots",     "Relationship: Food",     0.33,
+         "Andy goes to the movies", "Relationship: Movies",   0.33)
+~~~
+
+This combines Cette-Maisette-Sinon with Cadreref, in order to match conditional statements with their relationships.
+
+~~~ruby
+cadreref(cette("pomme", "rouge"),         "Relationship: Fruit",     0.33,
+         maisette("pomme", "vert"),       "Relationship: Fruit",     0.33,
+         sinon("pomme", "rouge", "vert"), "Relationship: Not Fruit", 0.33)
+~~~
+
+This is how you connect what if statements inside a frame of reference.
+
+~~~ruby
+cadreref(quoisi("pomme",  "rouge"), "Relation: Pomme", 0.33,
+         quoisi("pomme",   "vert"), "Relation: Pomme", 0.33,
+         quoisi("banane", "jaune"), "Relation: Banane", 0.33)
 ~~~
