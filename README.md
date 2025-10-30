@@ -43,7 +43,12 @@ end
 Inquires when something happened and who mentioned the conditional statement.
 
 ~~~ruby
-quandqui("At nine o clock", "Bob", cette("pomme", "rouge"), maisette("pomme", "vert"), sinon("pomme", "rouge", "vert"))
+quandqui("At nine o clock",
+         "Bob",
+
+         cette("pomme", "rouge"),
+         maisette("pomme", "vert"),
+         sinon("pomme", "rouge", "vert"))
 ~~~
 
 ## What If
