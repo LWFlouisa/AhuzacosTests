@@ -1,4 +1,3 @@
-require_relative "QuiQuandQuoi.rb"
 require          "NeoPathfinding"
 
 gabbler = Gabbler.new
