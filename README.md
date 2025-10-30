@@ -79,7 +79,7 @@ cadreref(cette("pomme", "rouge"),         "Relationship: Fruit",     0.33,
 This is how you connect what if statements inside a frame of reference.
 
 ~~~ruby
-cadreref(quoisi("pomme",  "rouge"), "Relation: Pomme", 0.33,
-         quoisi("pomme",   "vert"), "Relation: Pomme", 0.33,
+cadreref(quoisi("pomme",  "rouge"),  "Relation: Pomme", 0.33,
+         quoisi("pomme",   "vert"),  "Relation: Pomme", 0.33,
          quoisi("banane", "jaune"), "Relation: Banane", 0.33)
 ~~~
